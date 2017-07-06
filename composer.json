@@ -1,0 +1,13 @@
+{
+	"name": "afterlogic/aurora-module-mail-bcc-to-sender-plugin",
+	"type": "aurora-module",
+	"require": {
+		"php": ">=5.4.0",
+		"afterlogic/aurora-framework": "~0.4"
+	},
+	"extra": {
+		"installer-name": "MailBccToSenderPlugin",
+		"include-in-mobile": false,
+		"include-in-desktop": true
+	}
+}
