@@ -8,8 +8,8 @@
 namespace Aurora\Modules\MailBccToSenderPlugin;
 
 /**
- * This module adds ability to login to the admin panel as a Super Administrator.
- *
+ * With this plugin enabled and configured, all email messages sent out will also be delivered to a message sender, regardless of whether the sender's address was supplied in CC / BCC or not.
+ * 
  * @license https://www.gnu.org/licenses/agpl-3.0.html AGPL-3.0
  * @license https://afterlogic.com/products/common-licensing Afterlogic Software License
  * @copyright Copyright (c) 2019, Afterlogic Corp.
