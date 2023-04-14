@@ -32,6 +32,15 @@ class Module extends \Aurora\System\Module\AbstractModule
 
     /**
      *
+     * @return Module
+     */
+    public static function Decorator()
+    {
+        return parent::Decorator();
+    }
+
+    /**
+     *
      * @param array $aArguments
      * @param mixed $mResult
      */
