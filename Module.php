@@ -64,6 +64,6 @@ class Module extends \Aurora\System\Module\AbstractModule
     public function onBeforeSendMessage(&$aArguments, &$mResult)
     {
         $oAccount = \Aurora\Modules\Mail\Module::Decorator()->GetAccount($aArguments['AccountID']);
-        $aArguments['Bcc'] .= ($aArguments['Bcc']!=='' ? ', ' : '') . $oAccount->Email;
+        $aArguments['Bcc'] .= ($aArguments['Bcc'] !== '' ? ', ' : '') . $oAccount->Email;
     }
 }
